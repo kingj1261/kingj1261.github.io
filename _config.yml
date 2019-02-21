@@ -1,6 +1,6 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: Maping Blog
+SEOTitle: Maping的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: kingj126@163.com
 description: "重剑无锋，大巧不工，仰望星空，踏地而行！"
@@ -11,8 +11,8 @@ github_repo: "https://github.com/kingj1261" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "致力于分布式架构"
+#sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -22,7 +22,7 @@ RSS: false
 #zhihu_username:     qiubaiying
 github_username:    kingj1261
 #facebook_username:  baiying.qiu.7
-#jianshu_username:   e71990ada2fd
+jianshu_username:   8db9ed7a2889
 #twitter_username:   qiubaiying
 
 
@@ -57,16 +57,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+disqus_username: kingj126
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: f624589aa9403140f453                            #生成的clientID
+  clientSecret: 7ecc34671d1f9b5d022b273bb6708e67c54e1452    #生成的clientSecret
+  repo: kingj126.github.io    #仓库名称
+  owner: kingj1261    #github用户名
+  admin: kingj1261
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
