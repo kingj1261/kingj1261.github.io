@@ -3,6 +3,17 @@ layout: page
 description: "Thinking will not overcome fear but action will."
 ---
 
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?381515506bc9273ff47ce259ba6161f7";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -19,7 +30,8 @@ description: "Thinking will not overcome fear but action will."
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on
+        {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>
