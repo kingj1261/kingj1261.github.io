@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: kingj126@163.com
 description: "重剑无锋，大巧不工，仰望星空，踏地而行！"
 keyword: "分布式系统架构 分布式事务 分布式计算 分布式消息"
-url: "http://kingj1261.github.io"          # your host, for absolute URL
+url: "http://maping.tech/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/kingj1261" # you code repository
 
@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f624589aa9403140f453                            #生成的clientID
   clientSecret: 7ecc34671d1f9b5d022b273bb6708e67c54e1452    #生成的clientSecret
-  repo: kingj126.github.io    #仓库名称
+  repo: https://github.com/kingj1261    #仓库名称
   owner: kingj1261    #github用户名
   admin: kingj1261
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
